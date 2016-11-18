@@ -1,5 +1,7 @@
 import random
 
+#comment/uncomment prohibited_characters to exclude/include special characters.
+
 prohibited_characters = []
 prohibited_characters.extend([x for x in range(48)]) #from "NUL" to "/"
 prohibited_characters.extend([x for x in range(58, 65)]) #from ":" to "@"
